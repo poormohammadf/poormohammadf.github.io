@@ -2,7 +2,7 @@
     <div>
         <div class="container" style="padding:10%">
             <h2>Contact Me</h2>
-            <form  method="post" enctype="text/plain">
+            <form  method="post" @submit.prevent="submit" enctype="text/plain">
                 <div class="form-group">
                     <input type="email" class="form-control" v-model="contact.eamil" placeholder="Enter email">
                 </div>
@@ -18,7 +18,7 @@
         </div>
     </div>
 </template>
-
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 <script lang="ts">
 import axios from 'axios';
 export default {
@@ -35,7 +35,7 @@ export default {
     methods:{
         submit(){
             if(this.contact.eamil !="" && this.contact.name != "" && this.contact.message != ""){
-                axios.post('https://formspree.io/poormohammadf@gmail.com',{         
+                axios.post('https://send.pageclip.co/YEtLDqCxDLN4ET2pwsPd2HPTvPfgamID',{         
                 from: this.emailMsg,          
                 _subject: `${this.contact.name} | Friendly Message from Github Page`,
                 message: this.contact.message,},
