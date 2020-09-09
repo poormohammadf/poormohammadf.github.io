@@ -5,8 +5,7 @@
             <div class="container-fliud">
                 <img alt="Vue logo" class="rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Woman_1.jpg/220px-Woman_1.jpg">
                 <h1>Software Development Analyst</h1>
-                <p>This is portfolio</p>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact</button>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Me</button>
                 
             </div>
         </section>
@@ -21,7 +20,7 @@
                     <div class="col-md-4">
                             <div class="card">
                                 <div class="card-head">
-                                    <img alt="Vue logo" class="rounded-circle img-custome" src="https://www.wetechnology.cz/wp-content/uploads/2017/02/uxui.jpg">
+                                    <img alt="Vue logo" class="rounded-circle img-custome" src="https://i.pinimg.com/originals/4a/70/56/4a70563234301578c158dc142384a1c3.png">
                                     <h2>web project</h2>
                                 </div>
                                 <hr>

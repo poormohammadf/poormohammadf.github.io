@@ -38,16 +38,10 @@ export default {
     methods:{
         submit(){
             if(this.contact.eamil !="" && this.contact.name != "" && this.contact.message != ""){
-                var optionAxios = { 
-                    headers: {
-                        //'Access-Control-Allow-Origin': '*',
-                        //'Content-Type': 'application/json',
-                    }
-                }
                 axios.post('https://formspree.io/xwkrgrvy',{         
                 _replyto: this.contact.eamil,          
-                _subject: `${this.contact.name} | Friendly Message from Github Page`,
-                message: this.contact.message},optionAxios
+                _subject: `${this.contact.name}'s Message from Github Page`,
+                message: this.contact.message}
                 ).then((response) => {
                     this.contact.successful = true;
                     this.contact.name = '';
