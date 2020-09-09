@@ -39,7 +39,10 @@ export default {
         submit(){
             if(this.contact.eamil !="" && this.contact.name != "" && this.contact.message != ""){
                 var optionAxios = { 
-                    headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+                    headers: {
+                        'Access-Control-Allow-Origin': '*',
+                        'Content-Type': 'application/json',
+                    }
                 }
                 axios.post('https://formspree.io/xwkrgrvy',{         
                 _replyto: this.contact.eamil,          
