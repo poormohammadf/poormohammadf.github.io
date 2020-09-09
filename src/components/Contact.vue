@@ -2,7 +2,10 @@
     <div>
         <div class="container" style="padding:10%">
             <h2>Contact Me</h2>
-            <form  method="post" @submit.prevent="submit" enctype="text/plain">
+            <form  method="post" v-on:submit.prevent="submit" enctype="text/plain">
+                <div class="success" v-if="contact.successful"> 
+                    <b-alert variant="success" show>Delivered Successfully</b-alert>
+                </div>
                 <div class="form-group">
                     <input type="email" class="form-control" v-model="contact.eamil" placeholder="Enter email">
                 </div>
@@ -18,7 +21,6 @@
         </div>
     </div>
 </template>
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 <script lang="ts">
 import axios from 'axios';
 export default {
@@ -27,7 +29,8 @@ export default {
             contact:{
                 email:'',
                 name:'',
-                message:''
+                message:'',
+                successful: false
             }
         }
     },
@@ -35,15 +38,16 @@ export default {
     methods:{
         submit(){
             if(this.contact.eamil !="" && this.contact.name != "" && this.contact.message != ""){
-                axios.post('https://send.pageclip.co/YEtLDqCxDLN4ET2pwsPd2HPTvPfgamID',{         
-                from: this.emailMsg,          
+                axios.post('https://formspree.io/xwkrgrvy',{         
+                _replyto: this.contact.eamil,          
                 _subject: `${this.contact.name} | Friendly Message from Github Page`,
-                message: this.contact.message,},
+                message: this.contact.message}
                 ).then((response) => {
+                    this.contact.successful = true;
                     this.contact.name = '';
                     this.contact.eamil = '';
                     this.contact.message = '';
-                    this.$router.push({ path: '/' }); 
+                    this.$router.push({ path: '/' }).catch(()=>{});  
                     console.log(response);     
                 }).catch((error) => { 
                     alert(error);      
