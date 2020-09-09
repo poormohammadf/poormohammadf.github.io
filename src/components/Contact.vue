@@ -40,7 +40,7 @@ export default {
             if(this.contact.eamil !="" && this.contact.name != "" && this.contact.message != ""){
                 var optionAxios = { 
                     headers: {
-                        'Access-Control-Allow-Origin': '*',
+                        //'Access-Control-Allow-Origin': '*',
                         //'Content-Type': 'application/json',
                     }
                 }
