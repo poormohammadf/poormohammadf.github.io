@@ -41,7 +41,7 @@ export default {
                 var optionAxios = { 
                     headers: {
                         'Access-Control-Allow-Origin': '*',
-                        'Content-Type': 'application/json',
+                        //'Content-Type': 'application/json',
                     }
                 }
                 axios.post('https://formspree.io/xwkrgrvy',{         
