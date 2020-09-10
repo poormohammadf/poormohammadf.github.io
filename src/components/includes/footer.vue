@@ -38,6 +38,15 @@
                         </li>
                     </ul>
                 </div>
+                <div class="col-6 col-md">
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="skype:poormohammadf_1?chat">
+                                <i class="fab fa-skype fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <small class="d-block mb-3 text-muted">© Fatemeh Poormohammad,2020</small>
         </footer>
