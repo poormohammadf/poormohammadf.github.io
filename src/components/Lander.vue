@@ -97,6 +97,11 @@ export default {
     name:'Lander',
     components:{
         talk
+    },
+    methods:{
+        track () {
+            this.$ga.page('/')
+        }
     }  
 }
 </script>
