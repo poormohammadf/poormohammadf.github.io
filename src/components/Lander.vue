@@ -98,11 +98,9 @@ export default {
     components:{
         talk
     },
-    methods:{
-        track () {
-            this.$ga.page('/#')
-        }
-    }  
+    mounted(){
+        this.$ga.page('/')
+    }
 }
 </script>
 
