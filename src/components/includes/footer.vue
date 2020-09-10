@@ -41,7 +41,7 @@
                 <div class="col-6 col-md">
                     <ul class="fa-ul">
                         <li>
-                            <a href="skype:poormohammadf_1?chat">
+                            <a href="skype:poormohammadf?chat">
                                 <i class="fab fa-skype fa-2x"></i>
                             </a>
                         </li>
