@@ -2,48 +2,44 @@
     <div>
         <footer class="container py-5">
             <div class="row">
-                <div class="col-12 col-md">
-                <small class="d-block mb-3 text-muted">© 2020</small>
+                <div class="col-6 col-md">
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="mailto:poormohammadf@gmail.com" >
+                                <i class="fa fa-envelope fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Cool stuff</a></li>
-                    <li><a class="text-muted" href="#">Random feature</a></li>
-                    <li><a class="text-muted" href="#">Team feature</a></li>
-                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                    <li><a class="text-muted" href="#">Another one</a></li>
-                    <li><a class="text-muted" href="#">Last time</a></li>
-                </ul>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://github.com/poormohammadf" target="_blank">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Resource</a></li>
-                    <li><a class="text-muted" href="#">Resource name</a></li>
-                    <li><a class="text-muted" href="#">Another resource</a></li>
-                    <li><a class="text-muted" href="#">Final resource</a></li>
-                </ul>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://www.linkedin.com/in/fatemeh-poormohammad-983b8a69/" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Business</a></li>
-                    <li><a class="text-muted" href="#">Education</a></li>
-                    <li><a class="text-muted" href="#">Government</a></li>
-                    <li><a class="text-muted" href="#">Gaming</a></li>
-                </ul>
-                </div>
-                <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Team</a></li>
-                    <li><a class="text-muted" href="#">Locations</a></li>
-                    <li><a class="text-muted" href="#">Privacy</a></li>
-                    <li><a class="text-muted" href="#">Terms</a></li>
-                </ul>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://twitter.com/poormohammadf" target="_blank">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <small class="d-block mb-3 text-muted">© Fatemeh Poormohammad,2020</small>
         </footer>
     </div>
 </template>
