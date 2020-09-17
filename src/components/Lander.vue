@@ -11,7 +11,7 @@
         </section>
 
         <!-- portfolio section -->
-        <section class="protfolio">
+        <section class="protfolio" id="main">
             <h1>Portfolio</h1>
             <p>These are suppose to be sample projects</p>
             <div class="container">
