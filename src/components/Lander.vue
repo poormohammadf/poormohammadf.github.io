@@ -12,24 +12,31 @@
 
         <!-- portfolio section -->
         <section class="protfolio" id="main">
-            <h1>Portfolio</h1>
-            <p>These are suppose to be sample projects</p>
             <div class="container">
                 <div class="row">
 
                     <div class="col-md-4">
                             <div class="card">
                                 <div class="card-head">
-                                    <img alt="Vue logo" class="rounded-circle img-custome" src="https://i.pinimg.com/originals/4a/70/56/4a70563234301578c158dc142384a1c3.png">
-                                    <h2>web project</h2>
+                                    <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/Education.jpg">
+                                    <h2>Education</h2>
                                 </div>
                                 <hr>
                                 <div class="card-body">
-                                    <p>
-                                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
-                                        Nullam id dolor id nibh ultricies vehicula ut id elit. 
-                                        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
-                                    </p>
+                                    <ul class="fa-ul">
+                                        <li>
+                                            <i class="fa-li fa fa-graduation-cap"></i>
+                                            <div>
+                                                <p>MSc in Software Engineering, 2020</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fa-li fa fa-graduation-cap"></i>
+                                            <div>
+                                                <p>BSc in Information Technology, 2012</p>
+                                            </div>
+                                        </li>
+                                    </ul>
                                     <button type="button" class="btn btn-outline-secondary">More</button>
                                 </div>
                             </div>
@@ -39,16 +46,25 @@
                     <div class="col-md-4">
                             <div class="card">
                                 <div class="card-head">
-                                    <img alt="Vue logo" class="rounded-circle img-custome" src="https://i.pinimg.com/originals/4a/70/56/4a70563234301578c158dc142384a1c3.png">
-                                    <h2>web project</h2>
+                                    <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/Experience.jpg">
+                                    <h2>Experience</h2>
                                 </div>
                                 <hr>
                                 <div class="card-body">
-                                    <p>
-                                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
-                                        Nullam id dolor id nibh ultricies vehicula ut id elit. 
-                                        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
-                                    </p>
+                                    <ul class="fa-ul">
+                                        <li>
+                                            <i class="fa-li fa fa-briefcase"></i>
+                                            <div>
+                                                <p>Software Development Analyst, IAC, 2015-now</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fa-li fa fa-briefcase"></i>
+                                            <div>
+                                                <p>Freelance Application Developer, 2013-2015</p>
+                                            </div>
+                                        </li>
+                                    </ul>
                                     <button type="button" class="btn btn-outline-secondary">More</button>
                                 </div>
                             </div>
@@ -58,8 +74,8 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-head">
-                                <img alt="Vue logo" class="rounded-circle img-custome" src="https://cdn.mos.cms.futurecdn.net/wH5y2PkWhCxqKBje8rBp5e.jpg">
-                                <h2>web project</h2>
+                                <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/Skills.png">
+                                <h2>Skills</h2>
                             </div>
                             <hr>
                             <div class="card-body">

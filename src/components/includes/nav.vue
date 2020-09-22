@@ -11,19 +11,7 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#main">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Certification</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Interests</a>
+                        <a class="nav-link" href="#main">Curriculum Vitae</a>
                     </li>
                 </ul>
             </div>
