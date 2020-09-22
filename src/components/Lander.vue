@@ -79,11 +79,38 @@
                             </div>
                             <hr>
                             <div class="card-body">
-                                <p>
-                                    Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
-                                    Nullam id dolor id nibh ultricies vehicula ut id elit. 
-                                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
-                                </p>
+                                <ul class="fa-ul">
+                                    <li>
+                                        <i class="fa-li fa fa-wrench"></i>
+                                        <div>
+                                            <p>Backend Programming</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fa-li fa fa-wrench"></i>
+                                        <div>
+                                            <p>Frontend Programming</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fa-li fa fa-wrench"></i>
+                                        <div>
+                                            <p>Data Base</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fa-li fa fa-wrench"></i>
+                                        <div>
+                                            <p>Documentation</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fa-li fa fa-wrench"></i>
+                                        <div>
+                                            <p>Language</p>
+                                        </div>
+                                    </li>
+                                </ul>
                                 <button type="button" class="btn btn-outline-secondary">More</button>
                             </div>
                         </div>
