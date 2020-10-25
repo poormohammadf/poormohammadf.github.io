@@ -3,7 +3,7 @@
         <!-- lander section -->
         <section class="section">
             <div class="container-fliud">
-                <img alt="Vue logo" class="rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Woman_1.jpg/220px-Woman_1.jpg">
+                <img class="rounded-circle" src="../assets/Photo.jpg">
                 <h1>Software Development Analyst</h1>
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Me</button>
                 
