@@ -4,9 +4,11 @@
         <section class="section">
             <div class="container-fliud">
                 <img class="rounded-circle" src="../assets/Photo.jpg">
-                <h1>Software Development Analyst</h1>
+                <p>
+                    <h2>Software Development Analyst</h2>
+                    <br >
+                </p>
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Me</button>
-                
             </div>
         </section>
 
@@ -14,7 +16,6 @@
         <section class="protfolio" id="main">
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-4">
                             <div class="card">
                                 <div class="card-head">
