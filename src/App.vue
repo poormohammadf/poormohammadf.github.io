@@ -15,8 +15,21 @@ export default {
   name: 'App',
   components: {
     Navigation,
-    Footer
-
+    Footer,
+  },
+  //insert the following code for vue-meta to work
+  metaInfo() {
+        return { 
+            title: "Fatemeh Poormohammad - Tech Savvy",
+            meta: [
+                { name: 'description', content:  'poormohammadf - I enjoy coding and exploring new tech area'},
+                { property: 'og:title', content: "poormohammadf - Software Developement Analyst"},
+                { property: 'og:site_name', content: 'poormohammadf'},
+                { property: 'og:type', content: 'profile'},
+                { property: 'og:url', content: 'https://poormohammadf.github.io/#/' + this.userData.username},    
+                { name: 'robots', content: 'index,follow'} 
+            ]
+        }
   }
 }
 </script>
