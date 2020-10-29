@@ -3,11 +3,11 @@
         <!-- lander section -->
         <section class="section">
             <div class="container-fliud">
-                <img class="rounded-circle" src="../assets/Photo.jpg">
-                <p>
+                <div>
+                    <img class="rounded-circle" src="../assets/Photo.jpg">
                     <h2>Software Development Analyst</h2>
-                    <br >
-                </p>
+                </div>
+                <br >
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Me</button>
             </div>
         </section>
