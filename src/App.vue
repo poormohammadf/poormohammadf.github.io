@@ -1,20 +1,21 @@
 <template>
-  <div id="app">
-    <navigation/>
-    <router-view></router-view>
+  <v-app id='app'>
+    <Header/>
+    <v-main> 
+      <router-view></router-view>      
+    </v-main>
     <Footer/>
-    
-  </div>
+  </v-app>
 </template>
 
 <script>
-import Navigation from './components/includes/nav.vue'
+import Header from './components/includes/header.vue'
 import Footer from './components/includes/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Navigation,
+    Header,
     Footer,
   },
   //insert the following code for vue-meta to work
@@ -26,16 +27,15 @@ export default {
                 { property: 'og:title', content: "poormohammadf - Software Developement Analyst"},
                 { property: 'og:site_name', content: 'poormohammadf'},
                 { property: 'og:type', content: 'profile'},
-                { property: 'og:url', content: 'https://poormohammadf.github.io/#/' + this.userData.username},    
+                { property: 'og:url', content: 'https://poormohammadf.github.io/#/'},    
                 { name: 'robots', content: 'index,follow'} 
             ]
         }
   }
-}
+};
 </script>
-
 <style>
-#app {
+ #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

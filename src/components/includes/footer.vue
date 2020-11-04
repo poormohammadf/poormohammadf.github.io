@@ -1,6 +1,6 @@
 <template>
     <div>
-        <footer class="container py-5">
+        <v-footer class="container">
             <div class="row">
                 <div class="col-6 col-md">
                     <ul class="fa-ul">
@@ -16,6 +16,15 @@
                         <li>
                             <a href="https://github.com/poormohammadf" target="_blank">
                                 <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://gitlab.com/poormohammadf" target="_blank">
+                                <i class="fab fa-gitlab fa-2x"></i>
                             </a>
                         </li>
                     </ul>
@@ -48,7 +57,9 @@
                     </ul>
                 </div>
             </div>
-            <small class="d-block mb-3 text-muted">© Fatemeh Poormohammad,2020</small>
-        </footer>
+            <v-card-text class="text-center">
+                <small class="text-muted">© Fatemeh Poormohammad - 2020</small>
+            </v-card-text>
+        </v-footer>
     </div>
 </template>

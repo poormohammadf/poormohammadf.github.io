@@ -13,7 +13,7 @@
                     <input type="text" class="form-control" v-model="contact.name" placeholder="Enter name">
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" v-model="contact.message" rows="3" placeholder="write message"></textarea>
+                    <textarea class="form-control" v-model="contact.message" rows="3" placeholder="Write message"></textarea>
                 </div>
             </form>
             
