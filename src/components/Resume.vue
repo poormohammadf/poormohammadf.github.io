@@ -10,14 +10,14 @@
                 <v-flex md12>
                   <v-icon large>mdi-school</v-icon>
                     <ul>
-                      <li>Master of Computer Engineering</li>
-                      <li>Bachelor of Information Technology</li>
+                      <li>Master of Computer Engineering - 2020</li>
+                      <li>Bachelor of Information Technology - 2012</li>
                     </ul>
                 </v-flex>
                 <v-flex md12>
                   <v-icon large>mdi-briefcase</v-icon>
                     <ul>
-                      <li>Software Analyst at airport</li>
+                      <li>Software Analyst at ّIranian Airport Holding Company</li>
                     </ul>
                 </v-flex>
               </v-flex>
