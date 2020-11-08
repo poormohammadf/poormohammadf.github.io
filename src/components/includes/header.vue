@@ -15,9 +15,7 @@
             </div>
             <v-flex xs8>
                 <v-autocomplete
-                    v-model="select"
                     color="white"
-                    :loading="isLoading"
                     :search-input.sync="search"
                     hide-no-data
                     placeholder="Start typing to Search"

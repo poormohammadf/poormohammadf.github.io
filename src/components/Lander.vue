@@ -21,7 +21,7 @@
                 </mainbar>
                 <v-spacer></v-spacer>
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Me</button>
-                <mainbar v-if="skills" id="to-timeline" title="Skills">
+                <mainbar v-if="skills" title="Skills">
                     <v-layout wrap>
                     <template v-for="(skill, index) in skills">
                         <v-flex v-if="skill.divider" :key="index" md12 xs12 mb-4/>

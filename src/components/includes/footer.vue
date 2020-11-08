@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-footer class="container">
+        <v-footer>
             <div class="row">
                 <div class="col-6 col-md">
                     <ul class="fa-ul">
