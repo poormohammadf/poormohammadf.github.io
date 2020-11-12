@@ -13,10 +13,8 @@
                         I am a web developer interested in research, development and troubleshooting. 
                         I love coding and exploring cutting-edge technologies challenging me. 
                         Problem solving is one of my favourite hobbies which helps me with comping up noble ideas by using my initiative. 
-                        I never rest on my laurels since computer science world is boudless. I majored in software engineering. 
-                        I am currently working in Iranian Airport Company as software analyst. 
-                        I have a broad spectrum of experience in DBMS, IOT, API, BPMS.
-                        You can contact me by clicking on the link below.
+                        I never rest on my laurels since computer science world is boundless. I majored in software engineering. 
+                        I have done projects related in DBMS, IOT, API, BPMS.
                     </div>
                 </mainbar>
                 <v-spacer></v-spacer>
