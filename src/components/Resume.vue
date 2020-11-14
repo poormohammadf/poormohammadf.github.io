@@ -17,7 +17,7 @@
                 <v-flex md12>
                   <v-icon large>mdi-briefcase</v-icon>
                     <ul>
-                      <li>Software Analyst at ّIranian Airport Holding Company</li>
+                      <li>Software Analyst at Iranian Airport Holding Company</li>
                     </ul>
                 </v-flex>
               </v-flex>
