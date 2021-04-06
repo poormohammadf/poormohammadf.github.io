@@ -19,7 +19,10 @@ Vue.use(VueAnalytics, {
   router
 })
 Vue.use(Vuetify)
-Vue.use(Meta)
+Vue.use(Meta, {
+  // optional pluginOptions
+  refreshOnceOnNavigation: true
+})
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)
