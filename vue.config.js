@@ -3,7 +3,7 @@ module.exports = {
   devServer: {
     "proxy": {
       "/api": {
-        "target": "https://poormohammadf.github.io/#/",
+        "target": "https://poormohammadf.github.io",
         "changeOrigin": true,
         "pathRewrite": {
           "^/api": ""

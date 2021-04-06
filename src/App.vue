@@ -27,7 +27,7 @@ export default {
                 { property: 'og:title', content: "poormohammadf - Software Developement Analyst"},
                 { property: 'og:site_name', content: 'poormohammadf'},
                 { property: 'og:type', content: 'profile'},
-                { property: 'og:url', content: 'https://poormohammadf.github.io/#/'},    
+                { property: 'og:url', content: 'https://poormohammadf.github.io'},    
                 { name: 'robots', content: 'index,follow'} 
             ]
         }
