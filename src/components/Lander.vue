@@ -12,7 +12,7 @@
                     <div class="intro">
                         I am a web developer interested in research , development and troubleshooting. 
                         I love coding and exploring cutting-edge technologies challenging me. 
-                        Problem solving is one of my favourite hobbies which helps me with coming up noble ideas by using my initiative. 
+                        Problem solving is one of my favourite hobbies which helps me with coming up noble ideas by using my initiative and following my hunches. 
                         I never rest on my laurels since computer science world is boundless. I majored in software engineering. 
                         I have done projects related in DBMS, IOT, API, BPMS.
                     </div>
